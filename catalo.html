@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/mano.jpg" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+   <!-- AOS ANIMATIONS -->
+   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+   <!-- BOOTSTRAP -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- AOS -->
+   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+   <title>Educacion Continua</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+
+
+
+
+
+
+
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo" style="display: inline-flex; flex-direction: column; align-items: center;">
+            <div>
+               <i class="ri-stethoscope-line" style="font-size: 19px;"> C.E.C-Nikola Tesla</i>
+            </div>
+            <img src="assets/img/educa.png" alt="Logo" style="width: 155px; height: auto; margin-top: 5px;">
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <a href="#contact" class="nav__link">
+                  <i class="ri-chat-3-line"></i> Contacto
+               </a>
+               <a href="https://istnikolatesla.edu.ec/mision-y-vision/" target="_blank" class="nav__link">
+                  <i class="ri-group-line"></i> Nosotros
+               </a>
+
+
+               <a href="https://istnikolatesla.edu.ec/educacion-continua/" target="_blank" class="nav__link">
+                  <i class="ri-government-line"></i> C.E.C NIKOLA TESLA
+               </a>
+               <li>
+                  <a href="index.html" class="nav__link active-link">
+                     <i class="ri-home-5-line"></i> Menu
+                  </a>
+               </li>
+
+
+
+               <a href="https://wa.me/593967427400" target="_blank" title="Reach us via WhatsApp">
+                  <svg fill="#FFF" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                     style="background-color:#1BD741; padding: 10px; border-radius: 15px;">
+                     <path
+                        d="m15.271 13.21c.578.185 1.078.416 1.543.7l-.031-.018c.529.235.986.51 1.403.833l-.015-.011c.02.061.032.13.032.203 0 .011 0 .021-.001.032v-.001c-.015.429-.11.832-.271 1.199l.008-.021c-.231.463-.616.82-1.087 1.01l-.014.005c-.459.243-1.001.393-1.576.411h-.006c-1.1-.146-2.094-.484-2.988-.982l.043.022c-1.022-.468-1.895-1.083-2.636-1.829l-.001-.001c-.824-.857-1.579-1.795-2.248-2.794l-.047-.074c-.636-.829-1.041-1.866-1.1-2.995l-.001-.013v-.124c.032-.975.468-1.843 1.144-2.447l.003-.003c.207-.206.491-.335.805-.341h.001c.101.003.198.011.292.025l-.013-.002c.087.013.188.021.292.023h.003c.019-.002.04-.003.062-.003.13 0 .251.039.352.105l-.002-.001c.107.118.189.261.238.418l.002.008q.124.31.512 1.364c.135.314.267.701.373 1.099l.014.063c-.076.361-.268.668-.533.889l-.003.002q-.535.566-.535.72c.004.088.034.168.081.234l-.001-.001c.405.829.936 1.533 1.576 2.119l.005.005c.675.609 1.446 1.132 2.282 1.54l.059.026c.097.063.213.103.339.109h.002q.233 0 .838-.752t.804-.752zm-3.147 8.216h.022c1.357 0 2.647-.285 3.814-.799l-.061.024c2.356-.994 4.193-2.831 5.163-5.124l.024-.063c.49-1.113.775-2.411.775-3.775s-.285-2.662-.799-3.837l.024.062c-.994-2.356-2.831-4.193-5.124-5.163l-.063-.024c-1.113-.49-2.411-.775-3.775-.775s-2.662.285-3.837.799l.062-.024c-2.356.994-4.193 2.831-5.163 5.124l-.024.063c-.49 1.117-.775 2.419-.775 3.787 0 2.141.698 4.12 1.879 5.72l-.019-.026-1.225 3.613 3.752-1.194c1.49 1.01 3.327 1.612 5.305 1.612h.047zm0-21.426h.033c1.628 0 3.176.342 4.575.959l-.073-.029c2.825 1.197 5.028 3.4 6.196 6.149l.029.076c.588 1.337.93 2.896.93 4.535s-.342 3.198-.959 4.609l.029-.074c-1.197 2.825-3.4 5.028-6.149 6.196l-.076.029c-1.327.588-2.875.93-4.503.93-.011 0-.023 0-.034 0h.002c-.016 0-.034 0-.053 0-2.059 0-3.992-.541-5.664-1.488l.057.03-6.465 2.078 2.109-6.279c-1.051-1.714-1.674-3.789-1.674-6.01 0-1.646.342-3.212.959-4.631l-.029.075c1.197-2.825 3.4-5.028 6.149-6.196l.076-.029c1.327-.588 2.875-.93 4.503-.93h.033-.002z" />
+                  </svg>
+               </a>
+
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__buttons">
+            <!-- Theme button -->
+          
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </div>
+
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">
+                  <span>CUIDADOS INTEGRALES</span>
+                  <br> GERONTOLÓGICOS Y PEDIÁTRICOS
+               </h1>
+
+               <style>
+                  .home__title {
+                     font-size: clamp(1.8rem, 4vw, 3rem);
+                     line-height: 1.2;
+                     font-weight: 700;
+                  }
+
+                  .home__title span {
+                     display: block;
+                     font-size: clamp(1.4rem, 3vw, 2.2rem);
+                     font-weight: 600;
+                  }
+
+
+                  .titulo-principal {
+                     color: #0a5aa8;
+                     font-weight: 700;
+                  }
+
+                  .modulo {
+                     background: #fff;
+                     border-radius: 18px;
+                     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+                     margin-bottom: 30px;
+                     overflow: hidden;
+                     transition: all 0.4s ease;
+                  }
+
+                  .modulo:hover {
+                     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+                  }
+
+                  .modulo img {
+                     width: 100%;
+                     height: 100%;
+                     object-fit: cover;
+                     transition: transform 0.6s ease;
+                  }
+
+                  .modulo:hover img {
+                     transform: scale(1.08);
+                  }
+
+                  .modulo h5 {
+                     color: #0a5aa8;
+                     font-weight: bold;
+                  }
+
+                  .btn-whatsapp {
+                     background: #25D366;
+                     color: #fff;
+                     font-weight: bold;
+                     border: none;
+                     padding: 10px 18px;
+                     border-radius: 10px;
+                     animation: pulse 2s infinite;
+                  }
+
+                  .btn-whatsapp:hover {
+                     background: #1ebe5d;
+                  }
+
+                  @keyframes pulse {
+                     0% {
+                        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+                     }
+
+                     70% {
+                        box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+                     }
+
+                     100% {
+                        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+                     }
+                  }
+               </style>
+
+
+               <p class="home__description">
+                  Curso 100% práctico en cuidados geriátricos y pediátricos.
+                  Aprende haciendo y prepárate para el campo laboral.
+               </p>
+
+
+            </div>
+
+            <div class="home__content grid">
+               <div class="home__info">
+                  <div>
+                     <h2 class="home__name">Dr. Tatiana Molina</h2>
+                     <h3 class="home__profession">Especialista Salud </h3>
+
+                     <div class="home__icons">
+                        <div class="home__box">
+                           <i class="ri-medicine-bottle-fill"></i>
+                        </div>
+
+                        <div class="home__box">
+                           <i class="ri-24-hours-line"></i>
+                        </div>
+                     </div>
+                  </div>
+
+                  <a href="#contact" class="home__button button-dark">
+                     <i class="ri-arrow-right-s-line"></i>
+                     Contacto
+                  </a>
+               </div>
+
+               <div class="home__image">
+                  <img src="assets/img/home-img.png" alt="image" class="home__img">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== DELIVERY ====================-->
+
+
+
+      <div class="auto-carousel">
+         <div class="auto-track">
+            <div class="auto-item">
+               <img src="assets/img/caces.png" alt="Imagen 1">
+            </div>
+            <div class="auto-item">
+               <img src="assets/img/ces.png" alt="Imagen 2">
+            </div>
+            <div class="auto-item">
+               <img src="assets/img/ecua.png" alt="Imagen 3">
+            </div>
+
+            <!-- Duplicadas para efecto continuo -->
+            <div class="auto-item">
+               <img src="assets/img/caces.png" alt="">
+            </div>
+            <div class="auto-item">
+               <img src="assets/img/ces.png" alt="">
+            </div>
+            <div class="auto-item">
+               <img src="assets/img/ecua.png" alt="">
+            </div>
+
+
+
+            <div class="auto-item">
+               <img src="assets/img/caces.png" alt="">
+            </div>
+            <div class="auto-item">
+               <img src="assets/img/ces.png" alt="">
+            </div>
+            <div class="auto-item">
+               <img src="assets/img/ecua.png" alt="">
+            </div>
+         </div>
+      </div>
+
+      <style>
+         .auto-carousel {
+            width: 100%;
+            overflow: hidden;
+            background: #f5f5f5;
+            padding: 12px 0;
+         }
+
+         .auto-track {
+            display: flex;
+            width: max-content;
+            animation: moveRight 25s linear infinite;
+         }
+
+         .auto-item {
+            flex: 0 0 auto;
+            margin: 0 12px;
+            /* más seguidas */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+
+         /* 🔒 Todas las imágenes mismo tamaño */
+         .auto-item img {
+            width: 105px;
+            /* un poco más pequeño */
+            height: 70px;
+            object-fit: contain;
+         }
+
+         /* 📱 Responsive celular */
+         @media (max-width: 600px) {
+            .auto-item img {
+               width: 85px;
+               height: 55px;
+            }
+         }
+
+         /* ▶️ Animación continua izquierda ➜ derecha */
+         @keyframes moveRight {
+            from {
+               transform: translateX(-100%);
+            }
+
+            to {
+               transform: translateX(100%);
+            }
+         }
+      </style>
+
+
+
+
+
+
+
+
+
+
+      <section class="delivery section" id="delivery">
+
+         <div class="container my-5">
+
+            <h2 class="text-center mb-5 titulo-principal">
+               PLAN CURRICULAR – CUIDADOS INTEGRALES PEDIÁTRICOS Y GERONTOLÓGICOS
+            </h2>
+
+
+            <!-- MÓDULO 0 -->
+            <div class="modulo p-3" data-aos="fade-up">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img
+                        src="assets/img/joven-enfermero-con-estetoscopio-escuchando-el-corazon-de-un-anciano-en-un-hogar-de-ancianos.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Recursos y Materiales: Fundamentos del Cuidado Integral</h5>
+
+                     <ul>
+
+
+                        <h6 class="mt-3">🔹 Para clases presenciales</h6>
+                        <ul>
+                           <li>Proyector y pizarra acrílica.</li>
+                           <li>Maniquíes adulto y pediátrico.</li>
+                           <li>Termómetros, tensiómetros, estetoscopios y oxímetros.</li>
+                           <li>Material de bioseguridad: guantes, mascarillas y alcohol.</li>
+                           <li>Camillas, sillas de ruedas y muletas.</li>
+                        </ul>
+
+                        <h6 class="mt-3">🌿 Para saberes ancestrales</h6>
+                        <ul>
+                           <li>Plantas medicinales locales.</li>
+                           <li>Manzanilla, ruda, hierba luisa y eucalipto.</li>
+                           <li>Uso tradicional y preventivo en el cuidado integral.</li>
+                        </ul>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20deseo%20inscribirme%20en%20el%20Curso%20de%20Cuidados%20Integrales.%20Módulo%201."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+
+
+
+            <!-- MÓDULO 1 -->
+            <div class="modulo p-3" data-aos="fade-up">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/pexels-karola-g-8539780.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 1: Fundamentos del Cuidado Integral</h5>
+                     <p><strong>14 horas</strong> (12 presenciales + 2 virtuales)</p>
+                     <ul>
+                        <li>Conceptos básicos de cuidado integral.</li>
+                        <li>Ética, empatía y comunicación terapéutica.</li>
+                        <li>Bioseguridad y prevención de riesgos.</li>
+                        <li>Taller práctico de higiene y lavado clínico de manos.</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20deseo%20inscribirme%20en%20el%20Curso%20de%20Cuidados%20Integrales.%20Módulo%201."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- MÓDULO 2 -->
+            <div class="modulo p-3" data-aos="fade-right">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/anatomia.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 2: Anatomía y Fisiología Aplicada</h5>
+                     <p><strong>10 horas</strong> (8 presenciales + 2 virtuales)</p>
+                     <ul>
+                        <li>Desarrollo infantil y envejecimiento.</li>
+                        <li>Evaluación de signos vitales.</li>
+                        <li>Control antropométrico.</li>
+                        <li>Taller práctico de medición clínica.</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20quiero%20información%20del%20Módulo%202."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- MÓDULO 3 -->
+            <div class="modulo p-3" data-aos="fade-left">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/paciente-mayor-de-sexo-masculino-vacunado-contra-el-coronavirus.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 3: Cuidados Gerontológicos Integrales</h5>
+                     <p><strong>28 horas</strong> (16 presenciales + 2 virtuales + 10 prácticas)</p>
+                     <ul>
+                        <li>Nutrición e hidratación del adulto mayor.</li>
+                        <li>Prevención de caídas y úlceras.</li>
+                        <li>Salud mental y estimulación cognitiva.</li>
+                        <li>Taller practico:medicion e interpretacion .</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20quiero%20inscribirme%20en%20Cuidados%20Gerontológicos."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- MÓDULO 4 -->
+            <div class="modulo p-3" data-aos="zoom-in">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/pexels-marcus-goodman-685219662-33508363.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 4: Cuidados Pediátricos Integrales</h5>
+                     <p><strong>28 horas</strong></p>
+                     <ul>
+                        <li>Crecimiento y desarrollo infantil.</li>
+                        <li>Signos de alarma pediátricos.</li>
+                        <li>Administración segura de medicamentos.</li>
+                        <li>Práctica supervisada en pediatría.</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20quiero%20Cuidados%20Pediátricos."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- MÓDULO 5 -->
+            <div class="modulo p-3" data-aos="flip-up">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/pexels-shox-28271057.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 5: Primeros Auxilios</h5>
+                     <p><strong>14 horas</strong></p>
+                     <ul>
+                        <li>Emergencias pediátricas y geriátricas.</li>
+                        <li>Fracturas, heridas y quemaduras.</li>
+                        <li>Convulsiones, fiebre y caídas.</li>
+                        <li>RCP básico adulto y pediátrico.</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20quiero%20el%20Módulo%205."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- MÓDULO 6 -->
+            <div class="modulo p-3" data-aos="fade-up-right">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/7812-scaled.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 6: Saberes Ancestrales de la Serranía (Cayambe)</h5>
+                     <p><strong>8 horas presenciales</strong></p>
+                     <ul>
+                        <li>Medicina tradicional andina.</li>
+                        <li>Uso de plantas medicinales.</li>
+                        <li>Rituales de armonización.</li>
+                        <li>Prácticas comunitarias.</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20quiero%20Saberes%20Ancestrales."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- MÓDULO 7 -->
+            <div class="modulo p-3" data-aos="zoom-in-up">
+               <div class="row align-items-center">
+                  <div class="col-md-4">
+                     <img src="assets/img/examen.jpg">
+                  </div>
+                  <div class="col-md-8">
+                     <h5>Módulo 7: Evaluación y Proyecto Integrador</h5>
+                     <p><strong>32 horas</strong></p>
+                     <ul>
+                        <li>Elaboración del plan de cuidados integral.</li>
+                        <li>Proyecto final y sustentación.</li>
+                        <li>Práctica comunitaria supervisada.</li>
+                     </ul>
+                     <a href="https://wa.me/593967427400?text=Hola,%20quiero%20el%20Proyecto%20Integrador."
+                        class="btn btn-whatsapp">🛒 Inscribirme</a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+         <!-- JS -->
+         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+         <script>
+            AOS.init({
+               duration: 900,
+               easing: 'ease-out-cubic',
+               once: true
+            });
+         </script>
+
+      </section>
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <h2 class="section__title">
+                  Visítanos en <br>
+                  <span>Cayambe, Ecuador</span>
+               </h2>
+
+               <p class="contact__description">
+                  Encuéntranos en la <b>Calle Calderón y Morales</b>. Estamos
+                  disponibles para brindarte toda la información sobre el curso.
+                  ¡Escríbenos o visítanos hoy mismo!
+               </p>
+               <div class="contact__info">
+                  <div>
+                     <div class="contact__icon">
+                        <i class="ri-message-3-fill"></i>
+                     </div>
+
+                     <h3 class="contact__subtitle">Escribenos en</h3>
+
+                      <div class="contact__social">
+                        <a href="https://www.facebook.com/share/1For5BwuKx/" target="_blank"
+                           class="contact__social-link">
+                           <i class="ri-facebook-circle-fill"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/share/1ALtjNY1L3/" target="_blank"
+                           class="contact__social-link">
+                           <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://wa.me/593967427400" target="_blank" class="contact__social-link">
+                           <i class="ri-whatsapp-fill"></i>
+                        </a>
+
+                        <a href="https://wa.me/593964116609" target="_blank" class="contact__social-link">
+                           <i class="ri-whatsapp-fill"></i>
+                        </a>
+
+
+                     </div>
+
+
+
+
+                  </div>
+
+                  <div>
+                     <div class="contact__icon">
+                        <i class="ri-hospital-fill"></i>
+                     </div>
+
+                     <h3 class="contact__subtitle">Ubicacion</h3>
+
+                     <address class="contact__address">
+                        Ecuador - Cayambe <br>
+                        Av. Calderón y Morales
+                     </address>
+                  </div>
+
+                  <div>
+                     <div class="contact__icon">
+                        <i class="ri-time-fill"></i>
+                     </div>
+
+                     <h3 class="contact__subtitle">Atencion</h3>
+
+                     <address class="contact__address">
+                        Lunes - Sabados <br>
+                        8am - 6pm
+                     </address>
+                  </div>
+
+                  <div>
+                     <div class="contact__icon">
+                        <i class="ri-smartphone-fill"></i>
+                     </div>
+
+                     <h3 class="contact__subtitle">Telefonos</h3>
+
+                     <address class="contact__address">
+                        +593(0)-967-427400 <br>
+
+                     </address>
+                  </div>
+               </div>
+            </div>
+
+            <div class="contact__map">
+               <!-- Insert your location into Google Maps -->
+               <!-- Click Share -> Embed Map -> Copy HTML -->
+
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.814231885973!2d-78.1481131!3d0.0396655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2909dc875a4361%3A0xd506ce6a2a60f9e3!2sCalder%C3%B3n%20%26%20Morales%2C%20Cayambe!5e0!3m2!1ses!2sec!4v1700000000000!5m2!1ses!2sec"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+               </iframe>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="nav__logo" style="display: inline-flex; flex-direction: column; align-items: center;">
+            <div>
+               <i class="ri-stethoscope-line" style="font-size: 19px;"> C.E.C-Nikola Tesla</i>
+            </div>
+            <img src="assets/img/educa.png" alt="Logo" style="width: 155px; height: auto; margin-top: 5px;">
+         </a>
+
+         <div class="footer__links">
+            <a href="index.html" class="footer__link">Menu</a>
+
+
+         </div>
+
+         <div class="footer__social">
+            <a href="https://www.facebook.com/share/1For5BwuKx/" target="_blank" class="footer__social-link">
+               <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.facebook.com/share/1ALtjNY1L3/" target="_blank" class="footer__social-link">
+               <i class="ri-facebook-circle-fill"></i>
+            </a>
+           
+            <a href="https://www.tiktok.com/@ins_tecn_nikola_tesla?is_from_webapp=1&sender_device=pc" target="_blank"
+               class="footer__social-link">
+               <i class="ri-tiktok-fill"></i>
+            </a>
+
+
+            <a href="https://wa.me/593964116609" target="_blank"
+               class="footer__social-link">
+               <i class="ri-whatsapp-fill"></i>
+            </a>
+         </div>
+
+
+
+      </div>
+
+      <span class="footer__copy">
+         &#169; Copy Propiedad Intelectual Cayambe Tech Software
+      </span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+
+   <script>
+      const themeButton = document.getElementById('theme-button');
+      const main = document.getElementById('main');
+
+      themeButton.addEventListener('click', () => {
+         main.classList.toggle('dark-theme');
+      });
+   </script>
+
+</body>
+
+</html>
